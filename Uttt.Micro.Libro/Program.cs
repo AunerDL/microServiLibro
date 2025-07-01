@@ -38,7 +38,7 @@ app.UseSwaggerUI(c =>
 
 app.MapOpenApi(); 
 
-app.UseCors("PermitirFrontend");
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
